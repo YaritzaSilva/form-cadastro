@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+        <fieldset>
+      <legend class= "cadastro" or="cadastro">Cadastro</legend>
+<div class="linha">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Nome completo" required="required" />
+      </div>
+      <div class="linha">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required="required"/>
+      </div>
+      <div class="linha">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" required="optional" placeholder="Opcional"/>
+      </div>
+      <fieldset class="grupo">
+        <legend class= "legenda" for="endereco">Endereço</legend>
+        <div class="linha">
+        <label for="logradouro">Logradouro</label>
+        <input type="text" id= "logradouro" name="logradouro" required="required"/>
+        </div>
+        <div class="linha">
+        <label for="numero">Número</label>
+        <input type="number" id= "numero" name="numero" required="required"/>
+        </div>
+        <div class="linha">
+        <label for="bairro">Bairro </label>
+        <input type="text" id= "bairro" name="bairro" required="optional" placeholder="Opcional"/>
+        </div>
+        <div class="linha">
+        <label for="Cidade">Cidade </label>
+        <input type="text" id= "Cidade" name="Cidade" required="required"/>
+        </div>
+        <div class="linha">
+        <label for="estado">Estado </label>
+        <select name="estado" id="estado">
+<option selected="" value="">Selecione o Estado (UF)</option>
+<option value="Acre">Acre</option>
+<option value="Alagoas">Alagoas</option>
+<option value="Amapá">Amapá</option>
+<option value="Amazonas">Amazonas</option>
+<option value="Bahia">Bahia</option>
+<option value="Ceará">Ceará</option>
+<option value="Distrito Federal">Distrito Federal</option>
+<option value="Espírito Santo">Espírito Santo</option>
+<option value="Goiás">Goiás</option>
+<option value="Maranhão">Maranhão</option>
+<option value="Mato Grosso">Mato Grosso</option>
+<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+<option value="Minas Gerais">Minas Gerais</option>
+<option value="Pará">Pará</option>
+<option value="Paraíba">Paraíba</option>
+<option value="Paraná">Paraná</option>
+<option value="Pernambuco">Pernambuco</option>
+<option value="Piauí">Piauí</option>
+<option value="Rio de Janeiro">Rio de Janeiro</option>
+<option value="Rio Grande do Sul">Rio Grande do Sul</option>
+<option value="Rio Grande do Norte">Rio Grande do Norte</option>
+<option value="Rondônia">Rondônia</option>
+<option value="Roraima">Roraima</option>
+<option value="Santa Catarina">Santa Catarina</option>
+<option value="São Paulo">São Paulo</option>
+<option value="Sergipe">Sergipe</option>
+<option value="Tocantins">Tocantins</option>
+        </select>
+        </div>
+        <div class="linha">
+        <label for="cep">CEP </label>
+        <input type="number" id= "cep" name="cep" required="required"/>
+        </div>
+       </fieldset>
+       <fieldset>
+           <div class="linha">
+        <legend class= "legenda">Estado civil</legend>
+           </div>
+        <div class="linha">
+            <label>
+                <input type="radio" name="civil" value="solteiro"> Solteiro(a)
+            </label>
+        </div>
+        <div class="linha">
+            <label>
+                <input type="radio" name="civil" value="casado"> Casado (a)
+            </label>
+        </div>
+        <div class="linha">
+            <label>
+                <input type="radio" name="civil" value="divorciado"> Divorciado (a)
+            </label>
+        </div>
+        <div class="linha">
+            <label>
+                <input type="radio" name="civil" value="viúvo"> Viúvo (a)
+            </label>
+        </div>
+        <div class="linha">
+            <label>
+                <input type="radio" name="civil" value="separado"> Separado (a)
+            </label>
+        </div>
+            </fieldset>
+        <fieldset>
+            <legend class= "legenda"> Preferência de Contato</legend>
+            <div>
+                <input type="checkbox" id="opcaoemail" name="opcaoemail">
+                <div class="linha">
+                <label for="opcaoemail">Email</label></div>
+              </div>
+              <div>
+                <input type="checkbox" id="opcaotelefone" name="opcaotelefone">
+                <div class="linha">
+                <label for="opcaotelefone">Telefone</label></div>
+              </div>
+        </fieldset>
+        <fieldset>
+            <div class="legenda">
+            <input type="checkbox" name="concordo" id="concordo">
+            <label for="concordo">Li e concordo</label>
+        </div>
+        </fieldset>
+        </div>
+        <button class="botao" type="submit">Enviar</button>
+        <button class="botao" type="reset">Reiniciar</button>
+        </fieldset>
+    </form>
+  </body>
+</html>
