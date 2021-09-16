@@ -22,33 +22,24 @@ fieldset {
 
 body, input, select, button {
     font-family: sans-serif;
-    font-size: 1em;
-}
-
-.grupo:before, .grupo:after {
-    content: " ";
-    display: table;
-}
-
-.grupo:after {
-    clear: both;
+    font-size: 20PX;
 }
 
 .linha {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
 
 .linha label {
-    margin-bottom: 0.2em;
+    margin-bottom: 8px;
     color: #666;
     display: block;
 }
 
 fieldset.grupo .linha {
     float:  left;
-    margin-right: 1em;
+    margin-right: 16px;
 }
 
 .linha input[type="text"],
@@ -56,7 +47,7 @@ fieldset.grupo .linha {
 .linha input[type="number"],
 .linha input[type="tel"],
 .linha select{
-    padding: 0.2em;
+    padding: 8px;
     border: 1px solid #CCC;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
@@ -65,16 +56,16 @@ fieldset.grupo .linha {
 .linha label.checkbox {
     color: #000;
     display: inline-block;
-    margin-right: 3em;
+    margin-right: 24px;
 }
 
 .botao {
-    font-size: 1.5em;
+    font-size: 20px;
     background: rgb(18, 31, 214);
     border: 0;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     color: #FFF;
-    padding: 0.2em 0.6em;
+    padding: 8px 5px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
